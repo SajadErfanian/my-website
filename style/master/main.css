@@ -253,17 +253,6 @@ textarea{
     color: #ffffff;
 }
 
-.navbar .navbar-header .navbar-brand {
-    color: #FFB300 !important;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    /* padding: 12px 14px;
-    border: 3px solid #5aa16a;
-    position: relative; */
-    /* transition: all 0.6s ease-in-out; */
-}
 
 .navbar .navbar-header .navbar-brand:hover {
     animation: anim-logo 1s infinite;
