@@ -10,9 +10,11 @@
     box-sizing: border-box;
 }
 
+
 /* =========================================================
     Scroll Style
 ==========================================================*/
+
 
 /* width */
 
@@ -20,11 +22,13 @@
     width: 8px;
 }
 
+
 /* Track */
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 
 /* Handle */
 
@@ -32,15 +36,18 @@
     background: #555;
 }
 
+
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
     background: #FFB300;
 }
 
+
 /*==========================================================
     End Scroll Style
 ============================================================*/
+
 
 /*==========================================================
     Body and HTML Style
@@ -64,14 +71,21 @@ a {
     text-decoration: none !important;
     color: white !important;
 }
-textarea{
+
+textarea {
     resize: vertical;
     max-height: 154px;
 }
 
+.color-base {
+    color: #FFB300;
+}
+
+
 /*========================================================
     End Body and HTML Style
 ==========================================================*/
+
 
 /*========================================================
     1-Pre Loader
@@ -192,6 +206,7 @@ textarea{
     right: 0;
 }
 
+
 /* Loaded styles */
 
 .loaded #loader-wrapper .loader-section.section-left {
@@ -222,9 +237,11 @@ textarea{
     transition: all 0.3s 1s ease-out;
 }
 
+
 /*========================================================
     End Pre Loader
 =========================================================*/
+
 
 /*==========================================================
     2-Navigaton Style Start
@@ -253,10 +270,10 @@ textarea{
     color: #ffffff;
 }
 
-
 .navbar .navbar-header .navbar-brand:hover {
     animation: anim-logo 1s infinite;
 }
+
 
 /* @keyframes anim-logo{
     0%{
@@ -321,6 +338,7 @@ textarea{
 .navbar-toggle .icon-bar {
     background-color: rgb(117, 113, 113) !important;
 }
+
 
 /* Header Image Start */
 
@@ -435,9 +453,11 @@ textarea{
     color: #FFB300;
 }
 
+
 /*======================================================
     End Navigation Style 
 =======================================================*/
+
 
 /*=======================================================
     3-Section About
@@ -462,7 +482,7 @@ textarea{
 
 #about .my-img {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../img/compress/my-pic.jpg") no-repeat 50% 50%;
-    filter:grayscale(100%);
+    filter: grayscale(100%);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -557,7 +577,6 @@ textarea{
     font-size: 2.5rem;
 }
 
-
 #about .btn-link-box {
     float: left;
     text-align: center;
@@ -595,6 +614,7 @@ textarea{
     transition: all 0.5s ease-in-out;
     opacity: 0.8;
 }
+
 
 /*================================ Counter up ============================*/
 
@@ -650,13 +670,18 @@ textarea{
     margin-bottom: 30px;
     transition: all 0.6s ease-in-out;
 }
-#about .head-services>h1{
+
+#about .head-services>h1 {
     color: #FFB300;
 }
-#about .head-services>p{
+
+#about .head-services>p {
     color: #ffffff;
 }
+
+
 /*====================== End Cpunt up ================================*/
+
 
 /*=============================================================
     4-Section Services
@@ -701,12 +726,14 @@ textarea{
     border-bottom: 2px dashed #FFB300;
     padding-bottom: 4px;
 }
+
 #services .services-parent .box-services {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
 #services .services-parent .box-services .contain-box {
     padding: 25px 20px;
     margin-top: 25px;
@@ -741,6 +768,7 @@ textarea{
     text-align: center;
 }
 
+
 /* #services .services-parent .box-services .contain-box .web-dev{
     font-size: 3rem !important;
 } */
@@ -749,9 +777,11 @@ textarea{
     color: #ffffff;
 }
 
+
 /*========================================================================
     End Section Services
 =========================================================================*/
+
 
 /*===========================================================================
     5-Skills Section
@@ -767,11 +797,14 @@ textarea{
     padding-bottom: 50px;
 }
 
+
 /*========================== Skills Programming ==================================*/
-#skills #skill-circle .parent-circle{
+
+#skills #skill-circle .parent-circle {
     display: flex;
     flex-wrap: wrap;
 }
+
 #skills .skills-parent .skills-header h1 {
     color: #BDBDBD;
     margin-bottom: 50px;
@@ -836,7 +869,9 @@ textarea{
     color: #BDBDBD;
 }
 
+
 /*=========================== End Tech Skills================================*/
+
 
 /*============================= Skills Other ================================*/
 
@@ -901,6 +936,7 @@ textarea{
     font-weight: 500;
 }
 
+
 /*=================================== Network skills */
 
 #skills .skills-parent .parent-bar .wrapper {
@@ -938,6 +974,7 @@ textarea{
 #skills .skills-parent .parent-bar .wrapper .ms .ms-count {
     right: 0;
 }
+
 #skills .skills-parent .parent-bar .wrapper .ms-1 {
     width: 80%
 }
@@ -945,6 +982,8 @@ textarea{
 #skills .skills-parent .parent-bar .wrapper .ms-1 .ms-count-1 {
     right: 0;
 }
+
+
 /*====================================== lang & other skills */
 
 #skills .skills-parent .parent-bar .wrapper .lang {
@@ -978,6 +1017,7 @@ textarea{
 #skills .skills-parent .parent-bar .wrapper .plan .plan-count {
     right: 0;
 }
+
 #skills .skills-parent .parent-bar .wrapper .plan-1 {
     width: 80%
 }
@@ -986,9 +1026,19 @@ textarea{
     right: 0;
 }
 
+#skills .skills-parent .parent-bar .wrapper .plan-2 {
+    width: 60%;
+}
+
+#skills .skills-parent .parent-bar .wrapper .plan-2 .plan-count-2 {
+    right: 0;
+}
+
+
 /*===============================================================
     End Section Skills
 =============================================================== */
+
 
 /*==================================================================
     7-Section Experience
@@ -1098,19 +1148,6 @@ textarea{
     color: #ffffff;
 }
 
-/* #res .parent-res .res .exp-box .content::before{
-    content: "";
-    position: absolute;
-    left: 98.6%;
-    top: 10%;
-    height: 17px;
-    width: 17px;
-    background: #131414;
-    border-top:2px solid #BDBDBD;
-    border-right:2px solid #BDBDBD;
-    transform: rotate(45deg);
-} */
-
 #res .parent-res .res .exp-box .content h3 {
     font-size: 4rem;
     color: #FFB300;
@@ -1147,9 +1184,15 @@ textarea{
     left: 56%;
 }
 
+.free-lance {
+    padding-top: 15px;
+}
+
+
 /*====================================================================
     End Section Experience
 ======================================================================*/
+
 
 /*====================================================================
     Section Works
@@ -1214,6 +1257,7 @@ textarea{
     overflow: hidden;
     transition: all 0.4s ease-in-out;
 }
+
 
 /* #works .parent-works .contain-works .card-holder:hover{
     transform: translate(0,-10px);
@@ -1335,6 +1379,7 @@ textarea{
     background-color: #FFB300;
 }
 
+
 /* #works .parent-works .contain-works .card-holder:hover .card-img{
     transform: scale(1.1);
 } */
@@ -1342,6 +1387,7 @@ textarea{
 #works .parent-works .contain-works .card-holder:hover p {
     color: #f1f1f1;
 }
+
 
 /* =================== Modal Propertise========================= */
 
@@ -1409,9 +1455,11 @@ textarea{
     margin: 0 auto;
 }
 
+
 /*====================================================================
     End Section Works
 ======================================================================*/
+
 
 /*=====================================================================
     Section Contact
@@ -1571,9 +1619,11 @@ textarea{
     color: black;
 }
 
+
 /*======================================================================
     End Section Conatct 
 ========================================================================*/
+
 
 /*======================================================================
     Footer
@@ -1622,9 +1672,11 @@ textarea{
     color: #FFB300;
 }
 
+
 /*======================================================================
     End Footer
 ========================================================================*/
+
 
 /*======================================================================
     Form Validation 
@@ -1703,9 +1755,11 @@ textarea{
     }
 }
 
+
 /*======================================================================
     End Form Validation
 ========================================================================*/
+
 
 /*======================================================================
     Back-to-Top 
@@ -1749,9 +1803,11 @@ textarea{
     opacity: 1;
 }
 
+
 /*=====================================================================
     End Back-to-Top
 =======================================================================*/
+
 
 /*======================================================================
     Scroll Percentage
@@ -1779,13 +1835,16 @@ textarea{
     border-left-color: #111;
 }
 
+
 /*=======================================================================
     End  Scroll percentage
 =========================================================================*/
 
+
 /*##########################################################################
     All Media Device 
 ########################################################################## */
+
 
 /* $$$$$$$$$$$$$$$$ Max-Width 425px $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
@@ -1859,15 +1918,15 @@ textarea{
         width: 95%;
         margin: 10px auto;
     }
-    #skills .skills-parent .parent-bar .wrapper .skill>p{
+    #skills .skills-parent .parent-bar .wrapper .skill>p {
         margin-bottom: 15px;
     }
-    #header .header-content h2{
+    #header .header-content h2 {
         margin-left: 0;
         font-size: 8rem;
     }
-  
 }
+
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$ Between 425px and 768px $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
@@ -1935,6 +1994,4 @@ textarea{
         width: 95%;
         margin: 10px auto;
     }
-
-   
 }
