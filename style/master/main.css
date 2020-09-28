@@ -1921,6 +1921,7 @@ textarea {
     }
     #skills .skills-parent .parent-bar .wrapper .skill>p {
         margin-bottom: 15px;
+        max-width: 200px;
     }
     #header .header-content h2 {
         margin-left: 0;
