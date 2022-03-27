@@ -199,10 +199,10 @@ $("#skill-circle").appear(function () {
     number: 99 // Change to your number
   }, 4000);
   $("#chart_num_2").animateNumber({
-    number: 99 // Change to your number
+    number: 40 // Change to your number
   }, 4000);
   $("#chart_num_3").animateNumber({
-    number: 80 // Change to your number
+    number: 40 // Change to your number
   }, 4000);
   $("#chart_num_4").animateNumber({
     number: 99 // Change to your number

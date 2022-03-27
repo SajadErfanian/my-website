@@ -945,7 +945,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .pentest {
-    width: 85%;
+    width: 60%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .pentest .pentest-count {
@@ -953,7 +953,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .kali {
-    width: 70%;
+    width: 90%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .kali .kali-count {
@@ -988,7 +988,7 @@ textarea {
 /*====================================== lang & other skills */
 
 #skills .skills-parent .parent-bar .wrapper .lang {
-    width: 70%;
+    width: 50%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .lang .lang-count {
