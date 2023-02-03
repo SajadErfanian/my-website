@@ -486,10 +486,6 @@ textarea {
     background-color: #182024;
 }
 
-#about .div-left {
-    margin-right: 8.3333333%;
-}
-
 #about .img-content {
     width: 100%;
     height: auto;
@@ -636,7 +632,8 @@ textarea {
 /*================================ Counter up ============================*/
 
 #facts {
-    padding: 100px 6%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../img/compress/freelancer.webp) no-repeat center 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -705,7 +702,7 @@ textarea {
 ===============================================================*/
 
 #services {
-    padding: 80px 2%;
+    padding: 80px 0;
     background-color: #182024;
     color: #BDBDBD;
 }
@@ -736,6 +733,7 @@ textarea {
 #services .services-parent .head-services p {
     font-size: 2.4rem;
     color: #BDBDBD;
+    padding: 0 15px;
 }
 
 #services .services-parent .head-services p span {
@@ -810,7 +808,8 @@ textarea {
     background-size: cover;
     background-attachment: fixed;
     background-color: #182024;
-    padding: 80px 6%;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-bottom: 50px;
 }
 
@@ -822,9 +821,23 @@ textarea {
 
 /*========================== Skills Programming ==================================*/
 
-#skills #skill-circle .parent-circle {
+/* #skills #skill-circle .parent-circle {
     display: flex;
     flex-wrap: wrap;
+} */
+#skill-circle {
+    padding: 0 30px;
+}
+
+#skills .parent-circle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills .parent-circle .c-box {
+    flex-grow: 1;
+    max-width: 320px;
 }
 
 #skills .skills-parent .skills-header h2 {
@@ -987,7 +1000,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .lpic .lpic-count {
-    right: 100;
+    right: 0;
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms {
@@ -1007,7 +1020,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms-2 {
-    width: 943%
+    width: 94%
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms-2 .ms-count-2 {
@@ -1098,7 +1111,7 @@ textarea {
     background-size: cover;
     background-attachment: fixed; */
     background-color: #182024;
-    padding: 80px 2%;
+    padding: 80px 0;
 }
 
 #res h2.wow.zoomIn {
@@ -1143,6 +1156,7 @@ textarea {
     position: relative;
     margin-top: 70px;
     /* background-color: #ededed; */
+    padding: 15px;
 }
 
 #res .parent-res .res::before {
@@ -1175,7 +1189,7 @@ textarea {
 }
 
 #res .parent-res .res .exp-box .content {
-    width: 44%;
+    width: 45%;
     padding: 20px;
     background: #182024;
     text-align: left;
@@ -1232,7 +1246,7 @@ textarea {
 }
 
 .right {
-    left: 56%;
+    left: 55%;
 }
 
 .free-lance {
@@ -1797,6 +1811,12 @@ textarea {
     opacity: 1;
 }
 
+@media (max-width: 1200px) {
+    #skills .parent-circle .c-box {
+        min-width: 395px;
+    }
+}
+
 @media (max-width: 992px) {
     .alert-validate::before {
         visibility: visible;
@@ -1808,6 +1828,18 @@ textarea {
     }
 }
 
+@media (max-width: 768px) {
+    #skills .parent-circle .c-box {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    #skills .parent-circle .c-box {
+        min-width: 100%;
+    }
+}
 
 /*======================================================================
     End Form Validation
@@ -1957,7 +1989,7 @@ textarea {
     }
 
     #skills .skills-parent .parent-bar .wrapper {
-        width: 300px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -2049,7 +2081,7 @@ textarea {
     }
 
     #skills .skills-parent .parent-bar .wrapper {
-        width: 300px;
+        /* width: 300px; */
         margin: 0 auto;
     }
 
