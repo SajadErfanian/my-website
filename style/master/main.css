@@ -10,6 +10,19 @@
     box-sizing: border-box;
 }
 
+far {
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../fonts/Roboto-Medium.woff) format("woff"),
+        url(../../fonts/Roboto-Medium.woff2) format("woff2"),
+        url(../../fonts/Roboto-Medium.ttf) format("truetype");
+    font-display: swap
+}
 
 /* =========================================================
     Scroll Style
@@ -59,7 +72,7 @@ html {
 
 body {
     background-color: white;
-    font-family: 'Comfortaa', cursive;
+    font-family: Roboto;
 }
 
 li,
@@ -304,7 +317,7 @@ textarea {
     color: inherit !important;
     transition: all 0.4s ease-in-out;
     letter-spacing: 1px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-left: 8px;
     padding-right: 5px;
     font-weight: 600;
@@ -708,7 +721,7 @@ textarea {
     margin-bottom: 50px;
 }
 
-#services .services-parent .head-services h1::after {
+#services .services-parent .head-services h2::after {
     content: "";
     position: absolute;
     width: 60%;
@@ -1088,6 +1101,10 @@ textarea {
     padding: 80px 2%;
 }
 
+#res h2.wow.zoomIn {
+    color: #BDBDBD;
+}
+
 #res .parent-res .res-header h1 {
     color: #BDBDBD;
     margin-bottom: 50px;
@@ -1207,7 +1224,7 @@ textarea {
 }
 
 #res .parent-res .res .exp-box .content p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.6em;
     color: #BDBDBD;
     margin-top: 10px;
@@ -1388,7 +1405,7 @@ textarea {
 }
 
 #works .parent-works .contain-works .card-holder p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #BDBDBD;
     margin-bottom: 35px;
     transition: all 0.6s ease-in-out;
@@ -1461,7 +1478,7 @@ textarea {
 .modal .modal-dialog .modal-content .modal-body p {
     margin-top: 20px;
     color: #666;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 27px;
 }
 
@@ -1693,7 +1710,7 @@ textarea {
 #footer .footer-parent h5 {
     color: #BDBDBD;
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 #footer .footer-parent h6 {
