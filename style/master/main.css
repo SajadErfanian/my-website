@@ -153,6 +153,7 @@ textarea {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -163,6 +164,7 @@ textarea {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -173,6 +175,7 @@ textarea {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(-360deg);
     }
@@ -183,6 +186,7 @@ textarea {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg);
@@ -345,7 +349,7 @@ textarea {
 .img-header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../img/compress/parallax-1.jpg) no-repeat center center !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../img/compress/parallax-1.webp) no-repeat center center !important;
     background-attachment: fixed !important;
     background-size: cover !important;
     position: relative;
@@ -366,7 +370,7 @@ textarea {
     text-align: left;
 }
 
-#header .header-content h1 {
+#header .header-content strong {
     display: block;
     font-size: 9rem;
     color: #BDBDBD;
@@ -378,7 +382,7 @@ textarea {
     font-family: 'Raleway', sans-serif;
 }
 
-#header .header-content h2 {
+#header .header-content h1 {
     font-size: 10rem;
     color: #BDBDBD;
     margin-left: 45px;
@@ -407,6 +411,7 @@ textarea {
         bottom: 10%;
         opacity: 1;
     }
+
     100% {
         bottom: 7%;
         opacity: 0;
@@ -481,7 +486,7 @@ textarea {
 }
 
 #about .my-img {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../img/compress/my-pic.jpg") no-repeat 50% 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../img/compress/my-pic.webp") no-repeat 50% 50%;
     filter: grayscale(100%);
     background-size: cover;
     width: 300px;
@@ -508,7 +513,6 @@ textarea {
     margin-right: 15px;
     width: 38px;
     height: 38px;
-    /* border: 2px solid #FFB300; */
     background-color: #FFB300;
     border-radius: 50%;
     text-align: center;
@@ -620,7 +624,7 @@ textarea {
 
 #facts {
     padding: 100px 6%;
-    background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../img/compress/freelancer.jpg) no-repeat center 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../../img/compress/freelancer.webp) no-repeat center 100%;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -671,7 +675,7 @@ textarea {
     transition: all 0.6s ease-in-out;
 }
 
-#about .head-services>h1 {
+#about .head-services>h2 {
     color: #FFB300;
 }
 
@@ -697,7 +701,7 @@ textarea {
     margin-bottom: 55px;
 }
 
-#services .services-parent .head-services h1 {
+#services .services-parent .head-services h2 {
     display: inline-block;
     position: relative;
     font-size: 3.5rem;
@@ -797,6 +801,11 @@ textarea {
     padding-bottom: 50px;
 }
 
+.Learning {
+    color: #f1ac0d;
+    font-size: 13px;
+    margin-left: 5px;
+}
 
 /*========================== Skills Programming ==================================*/
 
@@ -805,7 +814,7 @@ textarea {
     flex-wrap: wrap;
 }
 
-#skills .skills-parent .skills-header h1 {
+#skills .skills-parent .skills-header h2 {
     color: #BDBDBD;
     margin-bottom: 50px;
     font-size: 3.5rem;
@@ -813,7 +822,7 @@ textarea {
     display: inline-block;
 }
 
-#skills .skills-parent .skills-header h1::after {
+#skills .skills-parent .skills-header h2::after {
     content: "";
     position: absolute;
     width: 50%;
@@ -945,7 +954,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .pentest {
-    width: 60%;
+    width: 78%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .pentest .pentest-count {
@@ -961,11 +970,11 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .lpic {
-    width: 90%;
+    width: 70%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .lpic .lpic-count {
-    right: 0;
+    right: 100;
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms {
@@ -977,10 +986,18 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms-1 {
-    width: 80%
+    width: 93%
 }
 
 #skills .skills-parent .parent-bar .wrapper .ms-1 .ms-count-1 {
+    right: 0;
+}
+
+#skills .skills-parent .parent-bar .wrapper .ms-2 {
+    width: 943%
+}
+
+#skills .skills-parent .parent-bar .wrapper .ms-2 .ms-count-2 {
     right: 0;
 }
 
@@ -996,7 +1013,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .commu {
-    width: 100%;
+    width: 70%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .commu .commu-count {
@@ -1012,7 +1029,7 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .plan {
-    width: 100%
+    width: 90%
 }
 
 #skills .skills-parent .parent-bar .wrapper .plan .plan-count {
@@ -1028,10 +1045,26 @@ textarea {
 }
 
 #skills .skills-parent .parent-bar .wrapper .plan-2 {
-    width: 60%;
+    width: 80%;
 }
 
 #skills .skills-parent .parent-bar .wrapper .plan-2 .plan-count-2 {
+    right: 0;
+}
+
+#skills .skills-parent .parent-bar .wrapper .plan-3 {
+    width: 86%;
+}
+
+#skills .skills-parent .parent-bar .wrapper .plan-3 .plan-count-3 {
+    right: 0;
+}
+
+#skills .skills-parent .parent-bar .wrapper .plan-4 {
+    width: 94%;
+}
+
+#skills .skills-parent .parent-bar .wrapper .plan-4 .plan-count-4 {
     right: 0;
 }
 
@@ -1203,14 +1236,14 @@ textarea {
     width: 100%;
     min-height: 400px;
     background-color: #212121;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)), url(../../img/compress/1920x1080-City-At-Night-Hi-Res.jpeg) no-repeat 0% 0%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0.55)), url(../../img/compress/1920x1080-City-At-Night-Hi-Res.webp) no-repeat 0% 0%;
     background-size: cover;
     background-attachment: fixed;
     padding: 90px 0;
     padding-bottom: 40px;
 }
 
-#works .parent-works .works-header h1 {
+#works .parent-works .works-header h2 {
     color: #BDBDBD;
     margin-bottom: 50px;
     font-size: 3.5rem;
@@ -1218,7 +1251,7 @@ textarea {
     display: inline-block;
 }
 
-#works .parent-works .works-header h1::after {
+#works .parent-works .works-header h2::after {
     content: "";
     position: absolute;
     width: 40%;
@@ -1471,7 +1504,7 @@ textarea {
     min-height: 700px;
     padding: 80px 0;
     background-color: #182024;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.5)), url(../../img/compress/p-1.jpeg) no-repeat center center;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.5)), url(../../img/compress/p-1.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -1736,6 +1769,7 @@ textarea {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -1751,6 +1785,7 @@ textarea {
         visibility: visible;
         opacity: 1;
     }
+
     #services .services-parent .box-services {
         display: list-item;
     }
@@ -1853,12 +1888,14 @@ textarea {
     html {
         font-size: 5.3px;
     }
+
     .navbar {
         /* background-color: transparent !important; */
         padding: 10px 10px !important;
         box-shadow: none !important;
         /* border-bottom: 1px solid rgba(34, 34, 34, 0.24) !important; */
     }
+
     .navbar ul {
         background-color: rgba(17, 17, 17, 0.966) !important;
         width: 100%;
@@ -1866,12 +1903,15 @@ textarea {
         margin-left: 0.5%;
         padding: 0 5px;
     }
+
     .navbar ul:last-child {
         padding-bottom: 8px;
     }
+
     .navbar ul:first-child {
         padding-top: 8px;
     }
+
     .navbar ul li a {
         color: white !important;
         font-size: 12px;
@@ -1879,50 +1919,55 @@ textarea {
         border-bottom: 2px solid rgba(128, 128, 128, 0.144);
         padding-top: 10px;
     }
+
     .navbar-header .navbar-brand {
         color: #FFB300 !important;
         font-size: 20px;
     }
+
     #header .header-parent .social-links {
         position: absolute;
         bottom: 15%;
         right: 8%;
     }
+
     #header .header-parent .social-links i {
         font-size: 18px;
     }
+
     #about .col-md-4 {
         margin-right: 0;
     }
-    #about .img-content .social-links a {
-        font-size: 14px;
-        width: 32px;
-        height: 32px;
-        line-height: 28px;
-    }
+
     #skills .skills-parent .parent-bar .wrapper {
         width: 300px;
         margin: 0 auto;
     }
+
     #res .parent-res .res .exp-box .content {
         width: 100%;
         margin-top: 73px;
         left: 0;
     }
+
     #contact .contact-form {
         padding-left: 0;
     }
+
     #contact .contain-contact .box-contact-info {
         padding-left: 0;
     }
+
     .modal .modal-dialog {
         width: 95%;
         margin: 10px auto;
     }
+
     #skills .skills-parent .parent-bar .wrapper .skill>p {
         margin-bottom: 15px;
         max-width: 200px;
     }
+
     #header .header-content h2 {
         margin-left: 0;
         font-size: 8rem;
@@ -1936,12 +1981,14 @@ textarea {
     html {
         font-size: 6.5px;
     }
+
     .navbar {
         /* background-color: transparent !important; */
         padding: 10px 5px !important;
         box-shadow: none !important;
         /* border-bottom: 1px solid rgba(34, 34, 34, 0.24) !important; */
     }
+
     .navbar ul {
         background-color: rgba(17, 17, 17, 0.966) !important;
         width: 100%;
@@ -1952,12 +1999,15 @@ textarea {
         /* border-bottom-right-radius: 20%; */
         /* border-top-left-radius: 20%; */
     }
+
     .navbar ul:last-child {
         padding-bottom: 8px;
     }
+
     .navbar ul:first-child {
         padding-top: 8px;
     }
+
     .navbar ul li a {
         color: white !important;
         font-size: 12px;
@@ -1965,33 +2015,41 @@ textarea {
         border-bottom: 2px solid rgba(128, 128, 128, 0.144);
         padding-top: 10px;
     }
+
     .navbar-header .navbar-brand {
         color: #FFB300 !important;
         font-size: 20px;
     }
+
     #header .header-parent .social-links {
         position: absolute;
         bottom: 15%;
         right: 8%;
     }
+
     #about .col-md-4 {
         margin-right: 0;
     }
+
     #skills .skills-parent .parent-bar .wrapper {
         width: 300px;
         margin: 0 auto;
     }
+
     #res .parent-res .res .exp-box .content {
         width: 100%;
         margin-top: 83px;
         left: 0;
     }
+
     #contact .contact-form {
         padding-left: 0;
     }
+
     #contact .contain-contact .box-contact-info {
         padding-left: 0;
     }
+
     .modal .modal-dialog {
         width: 95%;
         margin: 10px auto;

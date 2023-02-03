@@ -5,61 +5,45 @@
     <!-- Meta Tags 
     ==================================================================-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
-    user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="black" />
     <meta name="keywords" content="bootstrap,clean,cv,minimal,onepage particle,personal,portfolio,resume,vcard ">
     <meta name="online resume" content="Resume">
     <meta name="Sajad Erfanian" content="Sajad Erfanian">
-    <meta name="freelancer" content="Freelancer">
-    <meta name="frontend" content="Frontend">
+    <meta name="description" content="I'm Sajad Erfanian, web designer and developer from Iran. My responsibility is to create
+    effective and efficient websites for companies and individuals around the world. I use the
+    latest technology in building websites, and customer
+    satisfaction is my goal.">
     <meta name="theme-color" content="#ffb300" />
     <title>Sajad-erf | Personal Website</title>
     <!-- Fav Icon
     ==================================================================-->
-    <link rel="shortcut icon" href="img/fav-icon/fav-icon.jpg">
+    <link rel="shortcut icon" href="/img/fav-icon/fav-icon.jpg">
 
     <!-- Font Awesome CDN 
     ==================================================================-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-    <!-- Google Fonts CDN 
-    ==================================================================-->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Exo|Poor+Story" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-
-    <!-- End Google Fonts CDN 
-    =================================================================-->
+    <link rel="stylesheet" href="./style/fontawesome/fontawesome.css">
 
     <!-- Animate CSS 
     ==================================================================-->
-    <link rel="stylesheet" href="style/animate/animate.css">
+    <link rel="stylesheet" href="/style/animate/animate.css">
 
     <!-- Bootstrap Minified CSS 
     ==================================================================-->
-    <link rel="stylesheet" href="style/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/style/bootstrap/bootstrap.min.css">
 
     <!-- Main CSS 
     ==================================================================-->
-    <link rel="stylesheet" href="style/master/main.css">
+    <link rel="stylesheet" href="/style/master/main.css">
 
     <!-- OWL -->
-    <link rel="stylesheet" href="style/OWL/owl.carousel.css">
-    <link rel="stylesheet" href="style/OWL/owl.theme.default.css">
-
-    <!-- JQuery 
-    ====================================================================-->
-    <script src="js/JQuery/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/style/OWL/owl.carousel.css">
+    <link rel="stylesheet" href="/style/OWL/owl.theme.default.css">
 
     <!--========================================================================
         Conatct-Form-Asset
     ============================================================================-->
-    <link rel="stylesheet" href="style/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="/style/hamburgers/hamburgers.min.css">
     <!--========================================================================
         Conatct-End
     ============================================================================-->
@@ -80,31 +64,32 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="" id="logo"><img src="img/fav-icon/fav-icon.jpg" width="50" alt=""></a>
+                <a href="https://www.linkedin.com/in/sajaderfanian/" id="logo"><img src="img/fav-icon/fav-icon.jpg"
+                        width="50" height="52" alt="sajaderfanian my linkdin resume"></a>
             </div>
             <div class="collapse navbar-collapse" id="navi-menu">
                 <!-- ### Navigation Menu ### -->
                 <ul class="nav navbar-nav navbar-right" id="ul-menu">
                     <li>
-                        <a href="#header">Home</a>
+                        <a aria-label="Home" href="#header">Home</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a aria-label="about" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a aria-label="service" href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#skills">Skills</a>
+                        <a aria-label="skill" href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="#res">Resume</a>
+                        <a aria-label="resume" href="#res">Resume</a>
                     </li>
                     <li>
-                        <a href="#works">Works</a>
+                        <a aria-label="works" href="#works">Works</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a aria-label="contact" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -119,16 +104,16 @@
     <section id="header" class="img-header text-center">
         <div class="header-parent">
             <div class="header-content">
-                <h1>Welcome</h1>
-                <h2>I'm
+                <strong>Welcome</strong>
+                <h1>I'm
                     <span>Sajad-erf</span>
-                </h2>
+                </h1>
                 <h3>Professional
                     <span id="type"></span>
                 </h3>
             </div>
             <div class="arrow-link">
-                <a href="#about">
+                <a aria-label="read more" href="#about">
                     <i class="fas fa-angle-double-down"></i>
                 </a>
             </div>
@@ -150,16 +135,10 @@
                             <a href="https://www.linkedin.com/in/sajaderfanian/" target="_blank">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/erfanrqs" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" target="_blank">
+                            <a href="https://t.me/erfan_rqs" target="_blank">
                                 <i class="fab fa-telegram-plane"></i>
                             </a>
                         </div>
@@ -171,7 +150,8 @@
                             <span>Me</span>
                         </h2>
                         <h4>
-                            <span>Creative</span> Web Designer and Developer.</h4>
+                            <span>Creative</span> Web Designer and Developer.
+                        </h4>
                         <p>I'm Sajad Erfanian, web designer and developer from Iran. My responsibility is to create
                             effective and efficient websites for companies and individuals around the world. I use the
                             latest technology in building websites, and customer
@@ -186,14 +166,21 @@
                         </p>
                         <div class="row">
                             <div class="btn-link-box">
-                                <a href="#" target="_blank">
+                                <a href="https://drive.google.com/file/d/1NMvV792XDoOpmv8UaQusi-fgGO4keNgW/view?usp=sharing"
+                                    target="_blank">
                                     <h5 class="btn-resume">
-                                        <i class="far fa-file-pdf"></i> Resume
+                                        <i class="far fa-file-pdf">
+
+                                        </i>
+                                        Resume ( PDF ) 👀
                                     </h5>
                                 </a>
-                                <a href="#contact">
+                                <a href="https://www.linkedin.com/in/sajaderfanian/" target="_blank">
                                     <h5 class="btn-work">
-                                        <i class="fas fa-rocket"></i> Hire Me</h5>
+                                        <i class="fas fa-rocket">
+                                        </i>
+                                        Hire Me 😁
+                                    </h5>
                                 </a>
                             </div>
                         </div>
@@ -208,9 +195,9 @@
             <div class="container">
                 <div class="row">
                     <div class="head-services text-center">
-                        <h1 class="wow zoomIn  animated" style="visibility: visible; animation-name: zoomIn;">My
+                        <h2 class="wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">My
                             interests
-                        </h1>
+                        </h2>
                     </div>
                     <div id="count-par" class="count-parent">
                         <div class="col-md-3 col-sm-6">
@@ -269,7 +256,7 @@
             <div class="row">
                 <div class="services-parent">
                     <div class="head-services text-center">
-                        <h1 class="wow zoomIn animated">HERE'S WHAT I'M DOING</h1>
+                        <h2 class="wow zoomIn animated">HERE'S WHAT I'M DOING</h2>
                         <p>
                             <span>Here are the services that I can provide for companies and individuals around the
                                 world.</span>
@@ -329,7 +316,7 @@
 
                 <div id="skill-circle" class="skills-parent">
                     <div class="skills-header text-center">
-                        <h1 class="wow zoomIn animated">TECHNICAL SKILLS</h1>
+                        <h2 class="wow zoomIn animated">TECHNICAL SKILLS</h2>
                         <p>
                             <span>My Technical Programming and Designing</span>
                         </p>
@@ -337,38 +324,38 @@
                     <div class="parent-circle text-center">
                         <div class="col-md-3 col-sm-6">
                             <div class="box-circle text-center">
-                                <div class="circle" data-percent="99">
+                                <div class="circle html-css" data-percent="99">
                                     <h3 id="chart_num_1"></h3>
                                     <span>%</span>
                                 </div>
-                                <h2>HTML5 & CSS3</h2>
+                                <h2>HTML5 & CSS3 (Responsive Designe/mobile first)</h2>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="box-circle text-center">
-                                <div class="circle" data-percent="40">
+                                <div class="circle vue-js" data-percent="70">
                                     <h3 id="chart_num_2"></h3>
                                     <span>%</span>
                                 </div>
-                                <h2>Vue</h2>
+                                <h2>Vue <span class="Learning">(🤓 Learning...)</h2>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="box-circle text-center">
-                                <div class="circle" data-percent="40">
+                                <div class="circle js-js" data-percent="40">
                                     <h3 id="chart_num_3"></h3>
                                     <span>%</span>
                                 </div>
-                                <h2>JAVA SCRIPT</h2>
+                                <h2>JAVA SCRIPT <span class="Learning">(🤓 Learning...)</h2>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="box-circle text-center">
-                                <div class="circle" data-percent="99">
+                                <div class="circle teamWork" data-percent="99">
                                     <h3 id="chart_num_4"></h3>
                                     <span>%</span>
                                 </div>
-                                <h2>BOOTSTRAP</h2>
+                                <h2>Team Work</h2>
                             </div>
                         </div>
                     </div>
@@ -378,7 +365,7 @@
 
                 <div class="skills-parent">
                     <div class="skills-header text-center">
-                        <h1 class="wow zoomIn animated top-for-other">OTHERS SKILLS</h1>
+                        <h2 class="wow zoomIn animated top-for-other">OTHERS SKILLS</h2>
                         <p>
                             <span>My Technical Network Security and Other Skills</span>
                         </p>
@@ -387,33 +374,39 @@
                         <div class="col-md-6">
                             <div class="wrapper">
                                 <div class="skill">
-                                    <p>Linux</p>
+                                    <p>Rest API</p>
                                     <div class="skill-bar pentest wow slideInLeft animated">
-                                        <span class="pentest-count">60%</span>
+                                        <span class="pentest-count">78%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>Sass & Less</p>
+                                    <p>Sass modules</p>
                                     <div class="skill-bar kali wow slideInLeft animated">
                                         <span class="kali-count">90%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>version control (Git)</p>
+                                    <p>Version control (Git - Git Flow)</p>
                                     <div class="skill-bar lpic wow slideInLeft animated">
-                                        <span class="lpic-count">90%</span>
+                                        <span class="lpic-count">70%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>jira</p>
+                                    <p>Jira</p>
                                     <div class="skill-bar ms wow slideInLeft animated">
                                         <span class="ms-count">100%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>Css frameworks (Foundation & Materialize)</p>
+                                    <p>Css frameworks (Vuetify & tailwind css && WindCss & BootstrapVue)</p>
                                     <div class="skill-bar ms-1 wow slideInLeft animated">
-                                        <span class="ms-count-1">80%</span>
+                                        <span class="ms-count-1">93%</span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <p>Webpack<span class="Learning">(🤓 Learning...)</p>
+                                    <div class="skill-bar ms-2 wow slideInLeft animated">
+                                        <span class="ms-count-2">43%</span>
                                     </div>
                                 </div>
                             </div>
@@ -421,35 +414,43 @@
                         <div class="col-md-6">
                             <div class="wrapper">
                                 <div class="skill">
-                                    <p>English</p>
+                                    <p>English <span class="Learning">(🤓 Learning...)</span> </p>
                                     <div class="skill-bar lang wow slideInLeft animated">
                                         <span class="lang-count">50%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>zeplin</p>
+                                    <p>Vue Router</p>
                                     <div class="skill-bar commu wow slideInLeft animated">
-                                        <span class="commu-count">100%</span>
+                                        <span class="commu-count">70%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>angular</p>
-                                    <div class="skill-bar learn wow slideInLeft animated">
-                                        <span class="learn-count">40%</span>
-                                    </div>
-                                </div>
-                                <div class="skill">
-                                    <p>team work</p>
+                                    <p>BEM & CSS file structure
+                                    </p>
                                     <div class="skill-bar plan wow slideInLeft animated">
-                                        <span class="plan-count">100%</span>
+                                        <span class="plan-count">90%</span>
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <p>razor syntax</p>
+                                    <p>Vuex</p>
                                     <div class="skill-bar plan-2 wow slideInLeft animated">
-                                        <span class="plan-count-2">60%</span>
+                                        <span class="plan-count-2">80%</span>
                                     </div>
                                 </div>
+                                <div class="skill">
+                                    <p>scrum methodology</p>
+                                    <div class="skill-bar plan-3 wow slideInLeft animated">
+                                        <span class="plan-count-3">86%</span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <p>Web Performance Fundamentals Lighthouse</p>
+                                    <div class="skill-bar plan-4 wow slideInLeft animated">
+                                        <span class="plan-count-4">94%</span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -468,7 +469,7 @@
             <div class="row">
                 <div class="parent-res">
                     <div class="res-header text-center">
-                        <h1 class="wow zoomIn animated">MY Experience</h1>
+                        <h2 class="wow zoomIn animated">MY Experience</h2>
                         <p>
                             <span>My Thechniacl Experience and Academy Education</span>
                         </p>
@@ -501,21 +502,8 @@
                         <div class="exp-box wow fadeIn" data-wow-duration="0.6s" data-wow-offset="200">
                             <i class="fas fa-briefcase"></i>
                             <div class="content left">
-                                <h3>Cafe lead agency </h3>
-                                <span class="durate">Jun 2019 – Dec 2019</span>
-                                <span>front-end developer
-                                </span>
-                                <p>As a member of B2B & B2C team worked on development of Cafe lead agency e-marketplace
-                                    project.
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="exp-box wow fadeIn" data-wow-duration="0.6s" data-wow-offset="200">
-                            <i class="fas fa-briefcase"></i>
-                            <div class="content right">
                                 <h3>Sarmayex</h3>
-                                <span class="durate">Dec 2019 – Nov 2020</span>
+                                <span class="durate">May 2018 - Aug 2019 · 1 yr 4 mos</span>
                                 <span>front-end developer</span>
                                 <p>As a member of development team worked on Sarmayex, and B2B projects: a platform for
                                     cryptocurrency exchange transactions.</p>
@@ -523,18 +511,18 @@
                         </div>
                         <div class="exp-box wow fadeIn" data-wow-duration="0.6s" data-wow-offset="200">
                             <i class="fas fa-briefcase"></i>
-                            <div class="content left">
+                            <div class="content right">
                                 <h3>RM Innovation</h3>
-                                <span class="durate">Nov 2020 – Dec 2021</span>
+                                <span class="durate">Aug 2019 - Apr 2022 · 2 yrs 9 mos</span>
                                 <span>front-end developer(Vue)</span>
                                 <p>As a member of B2B team worked on development of RMI e-marketplace project.</p>
                             </div>
                         </div>
                         <div class="exp-box wow fadeIn" data-wow-duration="0.6s" data-wow-offset="200">
                             <i class="fas fa-briefcase"></i>
-                            <div class="content right">
+                            <div class="content left">
                                 <h3>Andishe Negar</h3>
-                                <span class="durate">Dec 2022 – May 2022</span>
+                                <span class="durate">Dec 2021 - Aug 2022 · 9 mos</span>
                                 <span>Vue developer(mid)</span>
                                 <p>As a member of B2B team worked on development of Andishe Negar e-marketplace
                                     project.
@@ -559,7 +547,7 @@
             <div class="row">
                 <div class="parent-works">
                     <div class="works-header text-center">
-                        <h1 class="wow animated zoomIn">LATEST WORKS</h1>
+                        <h2 class="wow animated zoomIn">LATEST WORKS</h2>
                         <p>
                             <span>Here you can find my latest works.</span>
                         </p>
@@ -567,7 +555,7 @@
                     <div class="contain-works works-slider owl-carousel owl-theme">
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/arzjoo.jpg" alt="">
+                                <img src="img/compress/arzjoo.webp" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -581,7 +569,7 @@
                         </div>
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/rug.png" alt="">
+                                <img src="img/compress/rug.png" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -591,11 +579,11 @@
                             </div>
                             <h5>rugexposd.com</h5>
                             <p>ecommerce website</p>
-                            <a onclick="window.open('https://www.rugexposd.com')">Read more...</a>
+                            <a href="https://www.rugexposd.com">Read more...</a>
                         </div>
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/vandadoor.png" alt="">
+                                <img src="img/compress/vandadoor.webp" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -609,7 +597,7 @@
                         </div>
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/bitcity.png" alt="">
+                                <img src="img/compress/bitcity.png" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -623,7 +611,7 @@
                         </div>
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/asac.jpg" alt="" width="100%" height="80%">
+                                <img src="img/compress/asac.webp" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -637,7 +625,7 @@
                         </div>
                         <div class="card-holder">
                             <div class="card-img">
-                                <img src="img/compress/bitobin.png" alt="">
+                                <img src="img/compress/bitobin.webp" alt="company logo" width="362" height="185">
                                 <div class="title">
                                     <div class="desc">
                                         <i class="fas fa-eye"></i>
@@ -647,7 +635,7 @@
                             </div>
                             <h5>bitobin.biz</h5>
                             <p>cryptocurrency website ,cryptocurrency website design</p>
-                            <a href="https://www.bitobin.com" target="_blank">Read more...</a>
+                            <a href="https://www.bitobin.com">Read more...</a>
                         </div>
                     </div>
                 </div>
@@ -668,12 +656,14 @@
                         <h2 class="wow animated zoomIn">Contact Me.</h2>
                         <p>Here is the form that you can send messages to me, I promise to read them as soon as
                             possible. If you want to attach file of send more complex Data you could mail it to
-                            <span>sajaderf92@gmail.com</span> , Thanks.</p>
+                            <span>erfanianrahmati.sajad@gmail.com</span> , Thanks.
+                        </p>
                     </div>
                     <div class="contain-contact">
                         <div class="col-md-8">
                             <h6 class="h2">
-                                <i class="fas fa-envelope"></i> Contact Form</h6>
+                                <i class="fas fa-envelope"></i> Contact Form
+                            </h6>
                             <div class="contact-form">
                                 <div class="contain-form">
                                     <form class="form-contact validate-form" action="mail.php" method="POST">
@@ -721,20 +711,24 @@
                         <div class="col-md-4">
                             <div class="box-contact-info">
                                 <h6>
-                                    <i class="fas fa-info-circle"></i> Contact Info</h6>
+                                    <i class="fas fa-info-circle"></i> Contact Info
+                                </h6>
                                 <div class="contain-info col-md-12">
                                     <h2>
-                                        <i class="fas fa-map-marker-alt"></i>My Location :</h2>
+                                        <i class="fas fa-map-marker-alt"></i>My Location :
+                                    </h2>
                                     <h3>Tehran/Iran</h3>
                                 </div>
                                 <div class="contain-info col-md-12">
                                     <h2>
-                                        <i class="fas fa-envelope"></i>Email Address :</h2>
-                                    <h3>sajaderf92@gmail.com</h3>
+                                        <i class="fas fa-envelope"></i>Email Address :
+                                    </h2>
+                                    <h3>erfanianrahmati.sajad@gmail.com</h3>
                                 </div>
                                 <div class="contain-info col-md-12">
                                     <h2>
-                                        <i class="fas fa-phone"></i>Phone Number :</h2>
+                                        <i class="fas fa-phone"></i>Phone Number :
+                                    </h2>
                                     <h3>(+98) 937-0264866</h3>
                                 </div>
                             </div>
@@ -756,27 +750,23 @@
                 <div class="footer-parent">
                     <div class="col-md-12 text-center">
                         <div id="footer-social" class="social-links">
-                            <a href="https://www.linkedin.com/in/sajaderfanian/" target="_blank">
+                            <a href="https://www.linkedin.com/in/sajaderfanian/" target="_blank"
+                                aria-label="linkdinsocial media">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/erfanrqs" target="_blank" aria-label="github">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" target="_blank">
+                            <a href="https://t.me/erfan_rqs" target="_blank" aria-label="telegram social media">
                                 <i class="fab fa-telegram-plane"></i>
                             </a>
                         </div>
                         <h5 class="h5">Web Designer and Developer</h5>
                         <h6 class="h5">Copyright
-                            <i class="far fa-copyright"></i>All Right Reserved.</h6>
+                            <i class="far fa-copyright"></i>All Right Reserved.
+                        </h6>
                         <h6>Design By
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/sajaderfanian/">
                                 <span>Sajad-erf</span>
                             </a>
                         </h6>
@@ -812,14 +802,11 @@
         All Plugins and JavaScripts File
     ====================================================================-->
 
+    <!-- ### JQuery ### -->
+    <script src="js/JQuery/jquery-3.6.3.min.js" type="text/javascript"></script>
 
     <!-- ### Smooth Scroll ### -->
     <script src="js/master/smooth-scroll.js" type="text/javascript"></script>
-
-
-    <!-- ### Cricle Progress bar ### -->
-    <script src="js/master/circle-progress.min.js" type="text/javascript"></script>
-
 
     <!-- ### Appear ### -->
     <script src="js/master/appear.js" type="text/javascript"></script>
@@ -832,10 +819,6 @@
     <!-- ### Esay Pie Chart ### -->
     <script src="js/master/jquery.easypiechart.min.js" type="text/javascript"></script>
 
-    <!-- ### Parallax JS ###-->
-    <script src="js/master/parallax.js" type="text/javascript"></script>
-
-
     <!-- ### WOW ###-->
     <script src="js/master/wow.js" type="text/javascript"></script>
 
@@ -843,8 +826,7 @@
     <script src="js/OWL/owl.carousel.min.js" type="text/javascript"></script>
 
     <!-- ##### Bootstrap Javascript Minified ##### -->
-    <script src="js/bootstrap/bootstrap.js" type="text/javascript"></script>
-
+    <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
 
     <!-- ##### Main Javascript ##### -->
     <script src="js/master/main.js" type="text/javascript"></script>

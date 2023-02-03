@@ -1,3 +1,4 @@
+var xx = document.querySelector('.owl-dots');
 // ##### Navigation Effect #####
 
 window.addEventListener("scroll", function (e) {
@@ -141,16 +142,16 @@ jQuery(document).ready(function () {
   // count up
   $("#facts").appear(function () {
     $("#num_1").animateNumber({
-      number: 20 // Change to your number			
+      number: 10 // Change to your number			
     }, 2800);
     $("#num_2").animateNumber({
-      number: 30 // Change to your number	
+      number: 50 // Change to your number	
     }, 2800);
     $("#num_3").animateNumber({
       number: 30 // Change to your number
     }, 2800);
     $("#num_4").animateNumber({
-      number: 20 // Change to your number
+      number: 10 // Change to your number
     }, 2800);
   }, {
     accX: 0,
@@ -199,7 +200,7 @@ $("#skill-circle").appear(function () {
     number: 99 // Change to your number
   }, 4000);
   $("#chart_num_2").animateNumber({
-    number: 40 // Change to your number
+    number: 70 // Change to your number
   }, 4000);
   $("#chart_num_3").animateNumber({
     number: 40 // Change to your number
@@ -297,4 +298,7 @@ $(document).appear(function () {
 
     $(thisAlert).removeClass('alert-validate');
   }
+
 })(jQuery);
+
+
