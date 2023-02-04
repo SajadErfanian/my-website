@@ -264,17 +264,16 @@ textarea {
     2-Navigaton Style Start
 ===========================================================*/
 
-#nav {
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
 .navbar {
     padding: 25px 0;
     background-color: transparent;
     border: 1px solid transparent !important;
     border-radius: 0 !important;
     transition: all 0.7s ease-in-out;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
 }
 
 .navbar-js {
@@ -1833,6 +1832,20 @@ textarea {
         width: 350px;
     }
 
+    .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar ul {
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .navbar-toggle {
+        margin-right: 0 !important;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -1935,7 +1948,7 @@ textarea {
 
 @media (max-width: 425px) {
     html {
-        font-size: 5.3px;
+        font-size: 6px;
     }
 
     .navbar {
